@@ -1,0 +1,6 @@
+{
+  "name": "案例解压与分析查看器",
+  "description": "基于Cloud SQL工业级关系型知识库的新一代特级教师实操重构、教学案例逆向审计与教案深度诊断分析引擎",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

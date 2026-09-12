@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-wechat: #07c160;
+    --brand-wechat-dark: #06ad56;
+    --brand-wechat-light: #e8f8f0;
+  }
+}
+
+/* 微信绿主体主题定制工具类 */
+.bg-wechat {
+  background-color: #07c160;
+}
+.bg-wechat:hover {
+  background-color: #06ad56;
+}
+.bg-wechat-subtle {
+  background-color: #f0faf4;
+}
+.border-wechat {
+  border-color: #07c160;
+}
+.border-wechat-subtle {
+  border-color: #d1f2e1;
+}
+.text-wechat {
+  color: #07c160;
+}
+.text-wechat-dark {
+  color: #06ad56;
+}
+
+/* 案例富文本内嵌表格与图片排版样式（简约高易读性） */
+.case-html-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.8125rem;
+}
+
+.case-html-body table, 
+.case-html-body th, 
+.case-html-body td {
+  border: 1px solid #e5e7eb;
+}
+
+.case-html-body th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+}
+
+.case-html-body td {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+  color: #4b5563;
+}
+
+.case-html-body tr:nth-child(even) {
+  background-color: #fbfdfc;
+}
+
+.case-html-body h1 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.35rem;
+}
+
+.case-html-body h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.case-html-body h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.case-html-body p {
+  margin-bottom: 0.6rem;
+  line-height: 1.65;
+  color: #374151;
+}
+
+.case-html-body ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 0.65rem;
+}
+
+.case-html-body ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-bottom: 0.65rem;
+}
+
+.case-html-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.375rem;
+  margin: 0.75rem auto;
+  display: block;
+  border: 1px solid #e5e7eb;
+}
+
